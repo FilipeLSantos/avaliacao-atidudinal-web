@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alertas precoces | Atitudinal</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+
+  <body>
+    <header class="topo">
+      <a class="marca" href="../index.html">
+        <span class="marca-icone">a.</span>
+        Atitudinal
+      </a>
+
+      <span class="topo-texto"> Núcleo pedagógico · Acompanhamento </span>
+    </header>
+
+    <div class="layout-principal">
+      <nav class="menu-lateral">
+        <p class="menu-titulo">Coordenação</p>
+
+        <a href="dashboard.html">Dashboard</a>
+        <a href="alertas.html">Alertas precoces</a>
+        <a href="clima-escolar.html">Clima escolar</a>
+        <a href="intervencoes.html">Intervenções</a>
+
+        <a class="sair" href="../index.html">Trocar perfil</a>
+      </nav>
+
+      <main class="area-conteudo">
+        <div class="conteudo">
+          <div class="cabecalho-pagina">
+            <div class="cabecalho-texto">
+              <p class="subtitulo">
+                <a href="dashboard.html">Dashboard</a>
+                / Alertas
+              </p>
+
+              <h1>Alertas precoces</h1>
+
+              <p>
+                Sinais que precisam de acompanhamento pela equipe pedagógica. Os
+                alertas não representam diagnóstico ou classificação.
+              </p>
+            </div>
+          </div>
+
+          <section class="caixa">
+            <div class="filtros">
+              <div class="campo">
+                <label for="turma">Turma</label>
+
+                <select id="turma">
+                  <option>Todas as turmas</option>
+                  <option>8º A</option>
+                  <option>8º B</option>
+                  <option>9º A</option>
+                </select>
+              </div>
+
+              <div class="campo">
+                <label for="sinal">Tipo de sinal</label>
+
+                <select id="sinal">
+                  <option>Todos os sinais</option>
+                  <option>Frequência</option>
+                  <option>Autonomia</option>
+                  <option>Participação</option>
+                </select>
+              </div>
+            </div>
+          </section>
+
+          <section class="coluna margem-topo">
+            <div class="caixa">
+              <div class="dividir">
+                <div>
+                  <span class="etiqueta alerta">
+                    Acompanhamento recomendado
+                  </span>
+
+                  <h2 class="titulo-alerta">Lucas Fernandes · 8º A</h2>
+
+                  <p>
+                    Frequência em 82%, redução na participação e desempenho
+                    estável nas últimas semanas.
+                  </p>
+                </div>
+
+                <a class="botao" href="aluno.html"> Ver detalhes </a>
+              </div>
+
+              <div class="linha">
+                <span class="etiqueta neutro"> Frequência 82% </span>
+
+                <span class="etiqueta neutro"> Participação em atenção </span>
+
+                <span class="etiqueta neutro"> Desempenho estável </span>
+              </div>
+            </div>
+
+            <div class="caixa">
+              <div class="dividir">
+                <div>
+                  <span class="etiqueta"> Acompanhar </span>
+
+                  <h2 class="titulo-alerta">Ana Souza · 8º B</h2>
+
+                  <p>
+                    Foram registradas dificuldades na organização das etapas das
+                    atividades.
+                  </p>
+                </div>
+
+                <a class="botao-secundario" href="aluno.html"> Ver detalhes </a>
+              </div>
+
+              <div class="linha">
+                <span class="etiqueta neutro"> Autonomia </span>
+
+                <span class="etiqueta neutro"> Conversa recomendada </span>
+              </div>
+            </div>
+
+            <div class="caixa">
+              <div class="dividir">
+                <div>
+                  <span class="etiqueta"> Turma </span>
+
+                  <h2 class="titulo-alerta">9º B · Participação</h2>
+
+                  <p>
+                    Houve redução na participação em atividades coletivas no
+                    período recente.
+                  </p>
+                </div>
+
+                <a class="botao-secundario" href="clima-escolar.html">
+                  Ver contexto da turma
+                </a>
+              </div>
+
+              <div class="linha">
+                <span class="etiqueta neutro"> Dado agregado </span>
+
+                <span class="etiqueta neutro"> Participação </span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <nav class="menu-mobile">
+      <a href="dashboard.html">Painel</a>
+      <a href="alertas.html">Alertas</a>
+      <a href="clima-escolar.html">Clima</a>
+      <a href="intervencoes.html">Intervenções</a>
+    </nav>
+  </body>
+</html>

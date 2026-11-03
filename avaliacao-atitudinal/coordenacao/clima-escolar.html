@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima escolar | Atitudinal</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+
+  <body>
+    <header class="topo">
+      <a class="marca" href="../index.html">
+        <span class="marca-icone">a.</span>
+        Atitudinal
+      </a>
+
+      <span class="topo-texto"> Núcleo pedagógico · Clima escolar </span>
+    </header>
+
+    <div class="layout-principal">
+      <nav class="menu-lateral">
+        <p class="menu-titulo">Coordenação</p>
+
+        <a href="dashboard.html">Dashboard</a>
+        <a href="alertas.html">Alertas precoces</a>
+        <a href="clima-escolar.html">Clima escolar</a>
+        <a href="intervencoes.html">Intervenções</a>
+
+        <a class="sair" href="../index.html">Trocar perfil</a>
+      </nav>
+
+      <main class="area-conteudo">
+        <div class="conteudo">
+          <div class="cabecalho-pagina">
+            <div class="cabecalho-texto">
+              <p class="subtitulo">
+                <a href="dashboard.html">Dashboard</a>
+                / Dados agregados
+              </p>
+
+              <h1>Clima escolar</h1>
+
+              <p>Indicadores gerais por turma e período.</p>
+            </div>
+          </div>
+
+          <section class="caixa">
+            <div class="filtros">
+              <div class="campo">
+                <label for="turma">Turma</label>
+
+                <select id="turma">
+                  <option>Todas as turmas</option>
+                  <option>8º A</option>
+                  <option>8º B</option>
+                  <option>9º A</option>
+                </select>
+              </div>
+
+              <div class="campo">
+                <label for="periodo">Período</label>
+
+                <select id="periodo">
+                  <option>2º semestre de 2026</option>
+                  <option>1º semestre de 2026</option>
+                </select>
+              </div>
+            </div>
+          </section>
+
+          <section class="grade grade-2 margem-topo">
+            <div class="caixa">
+              <div class="caixa-titulo">
+                <h2>Tendência por dimensão</h2>
+
+                <span class="etiqueta"> Escola </span>
+              </div>
+
+              <div class="barras">
+                <div class="barra-linha">
+                  <span>Responsabilidade</span>
+
+                  <div class="barra-fundo">
+                    <div class="barra-valor verde largura-78"></div>
+                  </div>
+
+                  <strong>78%</strong>
+                </div>
+
+                <div class="barra-linha">
+                  <span>Colaboração</span>
+
+                  <div class="barra-fundo">
+                    <div class="barra-valor largura-84"></div>
+                  </div>
+
+                  <strong>84%</strong>
+                </div>
+
+                <div class="barra-linha">
+                  <span>Autonomia</span>
+
+                  <div class="barra-fundo">
+                    <div class="barra-valor areia largura-68"></div>
+                  </div>
+
+                  <strong>68%</strong>
+                </div>
+
+                <div class="barra-linha">
+                  <span>Participação</span>
+
+                  <div class="barra-fundo">
+                    <div class="barra-valor terracota largura-72"></div>
+                  </div>
+
+                  <strong>72%</strong>
+                </div>
+
+                <div class="barra-linha">
+                  <span>Respeito e convivência</span>
+
+                  <div class="barra-fundo">
+                    <div class="barra-valor verde largura-88"></div>
+                  </div>
+
+                  <strong>88%</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="caixa">
+              <div class="caixa-titulo">
+                <div>
+                  <h2>Registros por mês</h2>
+                </div>
+
+                <span class="etiqueta neutro"> 2026 </span>
+              </div>
+
+              <div class="grafico">
+                <div class="grafico-coluna">
+                  <span class="altura-42"></span>
+                </div>
+
+                <div class="grafico-coluna">
+                  <span class="altura-60"></span>
+                </div>
+
+                <div class="grafico-coluna">
+                  <span class="altura-75"></span>
+                </div>
+
+                <div class="grafico-coluna">
+                  <span class="altura-68"></span>
+                </div>
+
+                <div class="grafico-coluna">
+                  <span class="altura-86"></span>
+                </div>
+
+                <div class="grafico-coluna">
+                  <span class="altura-74"></span>
+                </div>
+              </div>
+
+              <div class="grafico-legendas">
+                <span>Mai</span>
+                <span>Jun</span>
+                <span>Jul</span>
+                <span>Ago</span>
+                <span>Set</span>
+                <span>Out</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="caixa margem-topo">
+            <div class="caixa-titulo">
+              <h2>Comparação entre turmas</h2>
+
+              <span class="etiqueta neutro"> Dados agregados </span>
+            </div>
+
+            <div class="tabela-area">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Turma</th>
+                    <th>Colaboração</th>
+                    <th>Autonomia</th>
+                    <th>Participação</th>
+                    <th>Foco de acompanhamento</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>8º A</td>
+                    <td>Em desenvolvimento</td>
+                    <td>Estável</td>
+                    <td>Em atenção</td>
+                    <td>Participação em aula</td>
+                  </tr>
+
+                  <tr>
+                    <td>8º B</td>
+                    <td>Estável</td>
+                    <td>Em desenvolvimento</td>
+                    <td>Estável</td>
+                    <td>Organização das tarefas</td>
+                  </tr>
+
+                  <tr>
+                    <td>9º A</td>
+                    <td>Em destaque</td>
+                    <td>Estável</td>
+                    <td>Em desenvolvimento</td>
+                    <td>Participação em grupo</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p class="observacao">
+              Os dados são apresentados por turma, sem identificação individual.
+            </p>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <nav class="menu-mobile">
+      <a href="dashboard.html">Painel</a>
+      <a href="alertas.html">Alertas</a>
+      <a href="clima-escolar.html">Clima</a>
+      <a href="intervencoes.html">Intervenções</a>
+    </nav>
+  </body>
+</html>

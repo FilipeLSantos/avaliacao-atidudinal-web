@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painel pedagógico | Atitudinal</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+
+  <body>
+    <header class="topo">
+      <a class="marca" href="../index.html">
+        <span class="marca-icone">a.</span>
+        Atitudinal
+      </a>
+
+      <span class="topo-texto"> Núcleo pedagógico · Coordenação </span>
+    </header>
+
+    <div class="layout-principal">
+      <nav class="menu-lateral">
+        <p class="menu-titulo">Coordenação</p>
+
+        <a href="dashboard.html">Dashboard</a>
+        <a href="alertas.html">Alertas precoces</a>
+        <a href="clima-escolar.html">Clima escolar</a>
+        <a href="intervencoes.html">Intervenções</a>
+
+        <a class="sair" href="../index.html">Trocar perfil</a>
+      </nav>
+
+      <main class="area-conteudo">
+        <div class="conteudo">
+          <div class="cabecalho-pagina">
+            <div class="cabecalho-texto">
+              <p class="subtitulo">Núcleo pedagógico · 2026</p>
+
+              <h1>Painel pedagógico</h1>
+
+              <p>
+                Resumo dos principais indicadores de acompanhamento da escola.
+              </p>
+            </div>
+          </div>
+
+          <section class="caixa">
+            <div class="filtros">
+              <div class="campo">
+                <label for="turma">Turma</label>
+
+                <select id="turma">
+                  <option>Todas as turmas</option>
+                  <option>8º A</option>
+                  <option>8º B</option>
+                  <option>9º A</option>
+                </select>
+              </div>
+
+              <div class="campo">
+                <label for="periodo">Período</label>
+
+                <select id="periodo">
+                  <option>2º semestre</option>
+                  <option>1º semestre</option>
+                  <option>Ano letivo</option>
+                </select>
+              </div>
+            </div>
+          </section>
+
+          <section class="grade grade-4 margem-topo">
+            <div class="caixa indicador">
+              <span>Estudantes acompanhados</span>
+              <strong>248</strong>
+              <span class="indicador-nota"> Em 9 turmas </span>
+            </div>
+
+            <div class="caixa indicador">
+              <span>Conversas registradas</span>
+              <strong>36</strong>
+              <span class="indicador-nota"> Neste semestre </span>
+            </div>
+
+            <div class="caixa indicador">
+              <span>Alertas</span>
+              <strong>08</strong>
+              <span class="indicador-nota"> Em acompanhamento </span>
+            </div>
+
+            <div class="caixa indicador">
+              <span>Intervenções</span>
+              <strong>12</strong>
+              <span class="indicador-nota"> Em andamento </span>
+            </div>
+          </section>
+
+          <section class="grade grade-2 margem-topo">
+            <div class="caixa">
+              <div class="caixa-titulo">
+                <h2>Dimensões acompanhadas</h2>
+
+                <a class="link-texto" href="clima-escolar.html">
+                  Ver clima escolar
+                </a>
+              </div>
+
+              <div class="barras">
+                <div class="barra-linha">
+                  <span>Responsabilidade</span>
+
+                  <div class="barra-fundo">
+                    <div class="barra-valor verde largura-78"></div>
+                  </div>
+
+                  <strong>78%</strong>
+                </div>
+
+                <div class="barra-linha">
+                  <span>Colaboração</span>
+
+                  <div class="barra-fundo">
+                    <div class="barra-valor largura-84"></div>
+                  </div>
+
+                  <strong>84%</strong>
+                </div>
+
+                <div class="barra-linha">
+                  <span>Autonomia</span>
+
+                  <div class="barra-fundo">
+                    <div class="barra-valor areia largura-68"></div>
+                  </div>
+
+                  <strong>68%</strong>
+                </div>
+
+                <div class="barra-linha">
+                  <span>Participação</span>
+
+                  <div class="barra-fundo">
+                    <div class="barra-valor terracota largura-72"></div>
+                  </div>
+
+                  <strong>72%</strong>
+                </div>
+
+                <div class="barra-linha">
+                  <span>Respeito e convivência</span>
+
+                  <div class="barra-fundo">
+                    <div class="barra-valor verde largura-88"></div>
+                  </div>
+
+                  <strong>88%</strong>
+                </div>
+              </div>
+
+              <p class="observacao">
+                Os indicadores representam dados gerais e não são notas
+                individuais.
+              </p>
+            </div>
+
+            <div class="caixa">
+              <div class="caixa-titulo">
+                <h2>Alertas precoces</h2>
+
+                <a class="link-texto" href="alertas.html"> Ver todos </a>
+              </div>
+
+              <div class="coluna">
+                <div class="devolutiva alerta">
+                  <div>
+                    <strong>Lucas Fernandes · 8º A</strong>
+
+                    <p>
+                      Frequência em 82%, redução na participação e desempenho
+                      estável nas últimas semanas.
+                    </p>
+
+                    <a href="aluno.html"> Ver acompanhamento → </a>
+                  </div>
+                </div>
+
+                <div class="devolutiva">
+                  <div>
+                    <strong>9º B · Participação</strong>
+
+                    <p>
+                      A turma apresentou redução na participação em atividades
+                      coletivas.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="linha margem-topo">
+            <a class="botao-secundario" href="alertas.html"> Ver alertas </a>
+
+            <a class="botao-secundario" href="intervencoes.html">
+              Histórico de intervenções
+            </a>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <nav class="menu-mobile">
+      <a href="dashboard.html">Painel</a>
+      <a href="alertas.html">Alertas</a>
+      <a href="clima-escolar.html">Clima</a>
+      <a href="intervencoes.html">Intervenções</a>
+    </nav>
+  </body>
+</html>
